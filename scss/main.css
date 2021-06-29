@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #4494df;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-text {
+  position: absolute;
+  padding: 0.625rem;
+  font-weight: 700;
+  font-size: 1.875rem;
+  color: white;
+}
+
+#navbar-logo-img {
+  height: 45px;
+  padding: 10px;
+}
+/*# sourceMappingURL=main.css.map */

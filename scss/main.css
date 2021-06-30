@@ -5,24 +5,10 @@
 
 .navbar {
   background-color: #4494df;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .navbar-text {
-  position: absolute;
-  padding: 0.625rem;
+  padding: 0.635rem;
   font-weight: 700;
   font-size: 1.875rem;
   color: white;
@@ -31,5 +17,28 @@
 #navbar-logo-img {
   height: 45px;
   padding: 10px;
+}
+
+.intro {
+  height: 95vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(#6dd5fa), to(#2980b9));
+  background: linear-gradient(to bottom, #ffffff, #6dd5fa, #2980b9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-text {
+  font-size: 3.125rem;
+}
+
+.intro-para {
+  font-size: 1.875rem;
 }
 /*# sourceMappingURL=main.css.map */

@@ -85,14 +85,15 @@ body {
     transform: translateY(-1px);
     box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.685);
   }
-}
-.btn-contactUs {
-  border-radius: 6.25rem;
-  margin-top: 1.875rem;
-  background: white;
-  color: gray;
-  animation: moveUpBtn 0.5s ease-in-out 0.75s;
-  animation-fill-mode: backwards;
-  padding: 0.9375rem 2.5rem;
-  font-size: 1.25rem;
+  &-contactUs {
+    border-radius: 6.25rem;
+    margin-top: 1.875rem;
+    background: white;
+    color: gray;
+    animation: moveUpBtn 0.5s ease-in-out 0.75s;
+    animation-fill-mode: backwards;
+    padding: 0.9375rem 2.5rem;
+    font-size: 1.25rem;
+    border: 2px;
+  }
 }

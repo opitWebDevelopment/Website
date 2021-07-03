@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #0053a0;
+}
+
+.navbar-text {
+  padding: 1.25rem;
+  font-weight: 700;
+  font-size: 1.875rem;
+  color: white;
+}
+
+#navbar-logo-img {
+  height: 2.8125rem;
+  padding: 0.625rem;
+}
+
+.intro {
+  height: 95vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffffff), color-stop(#6dd5fa), to(#2980b9));
+  background: linear-gradient(to top, #ffffff, #6dd5fa, #2980b9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.intro-text {
+  font-family: "Benne", serif;
+  font-size: 3.72rem;
+}
+
+.intro-para {
+  font-size: 4rem;
+  font-family: "Big Shoulders Stencil Display", cursive;
+}
+
+@-webkit-keyframes moveUpBtn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(3.125rem);
+            transform: translateY(3.125rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@keyframes moveUpBtn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(3.125rem);
+            transform: translateY(3.125rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+.btn:link, .btn:visited {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.625rem 1.875rem;
+  display: inline-block;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 0.9375rem 1.2rem rgba(0, 0, 0, 0.685);
+          box-shadow: 0 0.9375rem 1.2rem rgba(0, 0, 0, 0.685);
+}
+
+.btn:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.685);
+          box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.685);
+}
+
+.btn-contactUs {
+  border-radius: 6.25rem;
+  margin-top: 1.875rem;
+  background: white;
+  color: gray;
+  -webkit-animation: moveUpBtn 0.5s ease-in-out 0.75s;
+          animation: moveUpBtn 0.5s ease-in-out 0.75s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  padding: 0.9375rem 2.5rem;
+  font-size: 1.25rem;
+  border: 2px;
+}
+/*# sourceMappingURL=main.css.map */

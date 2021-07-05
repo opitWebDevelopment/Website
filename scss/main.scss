@@ -23,7 +23,7 @@ body {
 
   &-text {
     // position: absolute;
-    padding: 1.25rem;
+    padding: 2rem;
     font-weight: 700;
     font-size: 1.875rem;
     color: white;
@@ -45,6 +45,10 @@ body {
     align-items: center;
     flex-direction: column;
   }
+  &-img {
+    width: 50%;
+  }
+
   &-text {
     // color: darkblue;
     font-family: "Benne", serif;

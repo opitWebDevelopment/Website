@@ -58,6 +58,10 @@ body {
           flex-direction: column;
 }
 
+.intro-img {
+  width: 50%;
+}
+
 .intro-text {
   font-family: "Benne", serif;
   font-size: 3.72rem;
